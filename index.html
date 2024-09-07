@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main" id="calcu">
+        <div class="display">
+         <input type="text" class="result" id="result">
+         <input class="clr" onclick="clr()" type="text" value="clr" onkeydown="myFunction(event)">
+        </div>
+        
+   <div class="numbers">
+   <button class="num" onclick="dis('7')" value="7" onkeydown="myFunction(event)">7</button>
+   <button class="num" onclick="dis('8')" value="8" onkeydown="myFunction(event)">8</button>
+   <button class="num" onclick="dis('9')" value="9" onkeydown="myFunction(event)">9</button>
+   <button class="num" onclick="dis('/')" value="/" onkeydown="myFunction(event)">/</button>
+   <button class="num" onclick="dis('4')" value="" onkeydown="myFunction(event)">4</button>
+   <button class="num" onclick="dis('5')" onkeydown="myFunction(event)">5</button>
+   <button class="num" onclick="dis('6')" onkeydown="myFunction(event)">6</button>
+   <button class="num" onclick="dis('*')" onkeydown="myFunction(event)">*</button>
+   <button class="num" onclick="dis('1')" value="1" onkeydown="myFunction(event)">1</button>
+   <button class="num" onclick="dis('2')" onkeydown="myFunction(event)">2</button>
+   <button class="num" onclick="dis('3')" onkeydown="myFunction(event)">3</button>
+   <button class="num" onclick="dis('-')" onkeydown="myFunction(event)">-</button>
+   <button class="num" onclick="dis('0')" onkeydown="myFunction(event)">0</button>
+   <button class="num" onclick="dis('.')" onkeydown="myFunction(event)">.</button>
+   <button class="num" onclick="solve()">=</button>
+   <button class="num" onclick="dis('+')" onkeydown="myFunction(event)">+</button>
+    
+   </div>
+
+    <div>
+
+    </div>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
